@@ -21,7 +21,7 @@ sudo apt-get install httpie
 
 5. Make the configuration
 
-In the `config.toml` file, there exists various configuration options.
+In the `config.toml` file, there exists various configuration options. Just change them according to your configuration.
 
 6. Run the server
 ```
@@ -33,4 +33,18 @@ go run app.go
 sh crons.sh
 ```
 
-# Features
+# Routes
+```
+- GET /stories/:type
+    Description: Returns the stories in json format of github.com/aacanakin/hn
+
+- PUT /stories/:type
+    Description: Retrieves the stories and saves it to db
+
+Type could be the following;
+    - new
+    - top 
+    - job
+    - ask
+    - show
+```
