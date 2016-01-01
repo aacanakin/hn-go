@@ -1,0 +1,25 @@
+
+[http]
+host = "0.0.0.0"
+port = 8090
+
+[app]
+env = "prod"
+name = "hnr"
+
+[story]
+limit = 150
+
+[mongo]
+host = "127.0.0.1"
+user = "root"
+port = 27017
+password = ""
+db = "hnr"
+
+[memcache]
+host = "127.0.0.1"
+port = 11211
+
+[newrelic]
+license_key = "your-newrelic-license-key"
