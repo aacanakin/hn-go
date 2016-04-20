@@ -3,10 +3,10 @@ hn-go is a restful hacker news api & story data consolidator using gin framework
 
 # Installation
 
-1. Install the dependencies
+1. Install the package
 
 ```sh
-sh install.sh
+go get -v -u github.com/aacanakin/hn-go
 ```
 
 2. Install httpie // for cronjobs
